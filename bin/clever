@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+// CLEVER CLI
+var program = require('commander'),
+  _ = require('lodash');
+
+// set program version
+var version = require('../package').version;
+program.version(version, '-v, --version');
+program
+  .command('init <name> [options]', 'Create a CLEVER application in the current working directory')
+  .option('--env [env]', 'Clever environment defaults to `development`')
+  .parse(process.argv);
+
+// print help with no args
+if (program.args.length < 1) {
+  program.help();
+}
+
+// if there is a command, make sure it's valid
+var commands = program.commands.map(function(command) {
+  // console.log('fuuuck')
+  return command._name;
+});
+
+if (!_.contains(commands, program.args[0])) {
+  console.log('clever: `' + program.rawArgs[2] + '` is not a clever command. See `clever --help`.');
+  console.log();
+  process.exit(1);
+} else {
+  // console.log('cool')
+}

@@ -1,0 +1,52 @@
+{
+  "name": "clever-cli",
+  "description": "The web's scaffolded tool for webapps based on CLEVER Framework.",
+  "version": "0.0.2",
+  "private": false,
+  "author": "Jacopo Daeli <jacopo.daeli@gmail.com>",
+  "contributors": "https://github.com/imperodesign/clever-cli/graphs/contributors",
+  "clever": "0.0.1",
+  "keywords": [
+    "clever",
+    "clever-core",
+    "clever-cli"
+  ],
+  "main": "index",
+  "bin": {
+    "clever": "./bin/clever",
+    "clever-init": "./bin/clever-init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imperodesign/clever-cli.git"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "scripts": {
+    "pretest": "npm install",
+    "test": "./node_modules/mocha-6to5/bin/mocha test"
+  },
+  "dependencies": {
+    "bower": "^1.3.8",
+    "chalk": "^0.5.1",
+    "commander": "^2.4.0",
+    "inquirer": "^0.8.0",
+    "json-file-plus": "^2.0.0",
+    "lodash": "^2.4.1",
+    "mongoose": "^3.8.12",
+    "npm": "^2.1.0",
+    "opener": "^1.3.0",
+    "progress": "^1.1.8",
+    "prompt": "^0.2.13",
+    "request": "latest",
+    "shelljs": "^0.3.0",
+    "async-series":"latest"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha-6to5": "^1.0.0"
+  },
+  "license": "MIT"
+}
