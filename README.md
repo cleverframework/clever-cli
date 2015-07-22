@@ -1,4 +1,4 @@
-# [![CLEVER Logo](https://raw.githubusercontent.com/imperodesign/skeleton/master/app/assets/src/img/skeleton-logo.png?raw=true)](http://cleverframework.io/) Clever Framework's CLI
+# [![CLEVER Logo](https://raw.githubusercontent.com/imperodesign/clever-system/development/assets/src/site/img/clever-logo.png)](http://cleverframework.io/) Clever Framework's CLI
 
 The web's scaffolded tool for webapps based on CLEVER Framework. The cli provides a lot of useful functionality, such as scaffolding options to create new packages, assign roles to users, check the mongo status, add/remove packages and list currently installed packages.
 

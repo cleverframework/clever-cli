@@ -1,7 +1,7 @@
 {
   "name": "clever-cli",
   "description": "The web's scaffolded tool for webapps based on CLEVER Framework.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "author": "Jacopo Daeli <jacopo.daeli@gmail.com>",
   "contributors": "https://github.com/imperodesign/clever-cli/graphs/contributors",
